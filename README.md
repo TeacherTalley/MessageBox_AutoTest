@@ -22,36 +22,36 @@ Test 1:
 
 Test 2:
 - Name: Main Output Test - Run student main and compare output to test output
-- Setup: cd MessageBox_AutoTest
-- Run: ./main > test_main_output.txt && diff ../AutoTest_main_output.txt test_main_output.txt
+- Setup: 
+- Run: cd MessageBox_AutoTest && ./main > test_main_output.txt && diff ../AutoTest_main_output.txt test_main_output.txt
 - Points: 10
 
 Test 3:
 - Name: Coding Style Test - Run cpplint on student code
-- Setup: cd MessageBox_AutoTest && pip install cpplint
-- Run: cpplint main.cpp MessageBox.h
+- Setup: pip install cpplint
+- Run: cd MessageBox_AutoTest && cpplint main.cpp MessageBox.h
 - Points: 10
 
 Test 4:
 - Name: SendAndReceive Test
-- Setup: cd MessageBox_AutoTest
-- Run: ./build/AutoTest_gtests --gtest_filter=MessageBox.SendAndReceive
-- Points: 10
+- Setup: 
+- Run: ./MessageBox_AutoTest/build/AutoTest_gtests --gtest_filter=MessageBox.SendAndReceive
+- Points: 20
 
 Test 5:
 - Name: FullAndEmpty Test
-- Setup: cd MessageBox_AutoTest
-- Run: ./build/AutoTest_gtests --gtest_filter=MessageBox.FullAndEmpty
-- Points: 10
+- Setup: 
+- Run: ./MessageBox_AutoTest/build/AutoTest_gtests --gtest_filter=MessageBox.FullAndEmpty
+- Points: 20
 
 Test 6:
 - Name: CountAndSize Test
-- Setup: cd MessageBox_AutoTest
-- Run: ./build/AutoTest_gtests  --gtest_filter=MessageBox.CountAndSize
-- Points: 10
+- Setup: 
+- Run: ./MessageBox_AutoTest/build/AutoTest_gtests  --gtest_filter=MessageBox.CountAndSize
+- Points: 20
 
 Test 7:
 - Name: Print Test
 - Setup: cd MessageBox_AutoTest
 - Run: ./build/AutoTest_gtests  --gtest_filter=MessageBox.Print
-- Points: 10
+- Points: 20
