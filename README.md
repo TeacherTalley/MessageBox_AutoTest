@@ -35,23 +35,23 @@ Test 3:
 Test 4:
 - Name: SendAndReceive Test
 - Setup: 
-- Run: ./MessageBox_AutoTest/AutoTest_gtest MessageBox.SendAndReceive
+- Run: ./MessageBox_AutoTest/AutoTest_gtest.sh MessageBox.SendAndReceive
 - Points: 20
 
 Test 5:
 - Name: FullAndEmpty Test
 - Setup: 
-- Run: ./MessageBox_AutoTest/AutoTest_gtest MessageBox.FullAndEmpty
+- Run: ./MessageBox_AutoTest/AutoTest_gtest.sh MessageBox.FullAndEmpty
 - Points: 20
 
 Test 6:
 - Name: CountAndSize Test
 - Setup: 
-- Run: ./MessageBox_AutoTest/AutoTest_gtest MessageBox.CountAndSize
+- Run: ./MessageBox_AutoTest/AutoTest_gtest.sh MessageBox.CountAndSize
 - Points: 20
 
 Test 7:
 - Name: Print Test
 - Setup: 
-- Run: ./MessageBox_AutoTest/AutoTest_gtest MessageBox.Print
+- Run: ./MessageBox_AutoTest/AutoTest_gtest.sh MessageBox.Print
 - Points: 20
