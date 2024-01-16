@@ -5,10 +5,16 @@
 
 # VS Code ignores
 main
+tests
 .vscode
 *.dSYM
 build
 .DS_Store
+
+# copied student files need to be ignored
+main.cpp
+tests.cpp
+MessageBox.h
 
 # User-specific files
 *.rsuser
