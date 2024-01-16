@@ -2,7 +2,7 @@
 pip install cpplint
 cd MessageBox_AutoTest
 
-srcfiles="../main.cpp ../MessageBox.h"
+srcfiles="main.cpp MessageBox.h"
 echo "Source files:" $srcfiles
 
 # for some reason, GitHub Classroom environment does not use cpplint.cfg
