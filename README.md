@@ -4,6 +4,11 @@ MessageBox Auto Testing Suite
 This repository contains the auto test suite for the Message Box example program
 using the GitHub Classroom autograding capabilities.
 
+The strategy is to install this repository into the student's submitted repository for testing.
+To prevent overrides of the code by students, the **MessageBox** repository should have a
+**.gitignore** file that includes the pattern "*AutoTest*", but the **.gitignore** file for
+this repository (**MessageBod_AutoTest**) should **not** contain that pattern.
+
 To configure the autograding, take the following steps in the **MessageBox* repository
 (**NOT** the **MessageBox_AutoTest** repository).
 
