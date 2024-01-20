@@ -6,6 +6,9 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #link_directories("/usr/local/lib")
 
+# Set CMP0135 policy to NEW
+cmake_policy(SET CMP0135 NEW)
+
 #find_package(GTest REQUIRED)
 #message("GTest_INCLUDE_DIRS = ${GTest_INCLUDE_DIRS}")
 
