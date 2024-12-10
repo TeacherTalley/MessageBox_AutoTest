@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.27)
 project(MessageBox_AutoTest)
 
 # GoogleTest requires at least C++14
